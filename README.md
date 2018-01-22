@@ -24,5 +24,23 @@ Submits data to be processed by the specified resource. The data to be processed
 * For a POST operation to create a new resource, the location header in the HTTP response must contain the complete URL to be used for subsequent PUT, GET, and DELETE commands.
 * The HTTP POST response to a create request must have a 200 return code and a location header containing the URI of the newly created resource in the HTTP header.
 
+#### PUT
+
+Updates the specified resource with new information. The data that is included in the PUT operation replaces the previous data.
+
+* The PUT operation cannot be used to create a new resource.
+* The request body of a PUT operation must contain the complete representation of the mandatory attributes of the resource in XML format.
+
+#### DELETE
+
+Deletes a resource.
+
+* If you delete a resource that has already been deleted, a 404 Not Found response is returned.
+* The HTTP DELETE operation should not have a request body. If information is passed in a GET request, query parameters must be used instead.
+
+
+
+
+
 
 
