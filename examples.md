@@ -39,15 +39,11 @@ Related examples
 
 ## How to Use the Examples
 
-This document is a collection of examples-recipes, if you will-for using REST API, a server-side scripting solution for use withCisco IMC Supervisor. Like a cookbook, you can use this document in at least three ways:
+This following sections are a collection of examples-recipes, if you will-for using REST API, a server-side scripting solution for use with MayaOnline. You can use the following sections in at least three ways:
 
 * You can follow the examples as written \(substituting your own variables, of course\) to complete tasks without necessarily knowing everything about the steps you are following.
 * You can use the examples as templates and adapt them to similar tasks in your work.
 * You can study the examples to figure out “how things are done” in REST API and generalize to using different methods for other tasks you need to script.
 
 The examples are chosen to illustrate common use cases and are intended to facilitate all three of these modes of use.
-
-**Note:** An API uses either HTTP POST or GET. In the following examples, all the READ APIs are GET and others are POST.
-
-
 
