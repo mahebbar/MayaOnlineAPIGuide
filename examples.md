@@ -47,3 +47,55 @@ This following sections are a collection of examples-recipes, if you will-for us
 
 The examples are chosen to illustrate common use cases and are intended to facilitate all three of these modes of use.
 
+# Clusters
+
+The examples in this category consist of various cluster tasks that you can perform in MayaOnline such as Creating, Modifying, and Deleting clusters.
+
+## Creating Clusters
+
+#### Objective
+
+Create a firmware image in a network location.
+
+#### Prerequisites
+
+The HUU Image must be available in a network location - NFS/CIFS/HTTP.
+
+#### REST URL
+
+```
+
+```
+
+#### Components
+
+
+
+#### Sample Input XML
+
+
+
+#### Implementation
+
+
+
+#### See Also
+
+Modifying Clusters
+
+Deleting Clusters
+
+
+
+## Modifying Clusters
+
+
+
+## Deleting Clusters
+
+
+
+
+
+
+
