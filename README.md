@@ -38,7 +38,16 @@ Deletes a resource.
 * If you delete a resource that has already been deleted, a 404 Not Found response is returned.
 * The HTTP DELETE operation should not have a request body. If information is passed in a GET request, query parameters must be used instead.
 
+## Generating an API Access Key
 
+
+
+## How to Interpret the HTTP Response
+
+The following HTTP status codes are returned by MayaOnline:
+
+* 401 Unauthorized—The API key is not a valid key.
+* 200 OK—MayaOnline processed the request. The actual status of the request is in the body of the response.
 
 
 
