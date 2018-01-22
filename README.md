@@ -40,8 +40,6 @@ Deletes a resource.
 
 ## Generating an API Access Key
 
-
-
 ## How to Interpret the HTTP Response
 
 The following HTTP status codes are returned by MayaOnline:
@@ -49,7 +47,15 @@ The following HTTP status codes are returned by MayaOnline:
 * 401 Unauthorized—The API key is not a valid key.
 * 200 OK—MayaOnline processed the request. The actual status of the request is in the body of the response.
 
+## How to Make a REST API Request
 
+
+
+### **Example API URL:**
+
+
+
+### 
 
 
 
