@@ -1,18 +1,18 @@
 # Introduction
 
-This document helps you understand why you must use REST APIs, it's working and methods and  This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This document helps you understand why you must use REST APIs, it's working, methods, and  examples.
 
 ## Why Use the REST API
 
-TheCisco IMC SupervisorREST API allows an application to interact withCisco IMC Supervisorprogrammatically. These requests provide access to resources inCisco IMC Supervisor.
+The REST API allows an application to interact with MayaOnline programmatically. These requests provide access to resources in MayaOnline.
 
-The API accepts and returns HTTP messages that contain Extensible Markup Language \(XML\) documents. The XML payload contained in an HTTP message describes a method or managed object \(MO\) inCisco IMC Supervisor. You can use any programming language to generate the messages and the XML payload.
+The API accepts and returns HTTP messages that contain Extensible Markup Language \(XML\) documents. The XML payload contained in an HTTP message describes a method or managed object \(MO\) in MayaOnline. You can use any programming language to generate the messages and the XML payload.
 
 ## How the API Works
 
 In RESTful APIs, the HTTP method specifies the action you want to perform and the URI specifies the resource you want to access.
 
-REST API uses the following HTTP methods to perform create, read, update, and delete \(CRUD\) operations:
+REST API uses the following HTTP methods to perform create,  update, and delete operations:
 
 ### HTTP Methods
 
@@ -21,7 +21,7 @@ REST API uses the following HTTP methods to perform create, read, update, and de
 Submits data to be processed by the specified resource. The data to be processed is included in the request body. A POST operation can create a new resource.
 
 * Every POST request must include an XML body containing a definition of the new resource.
-* For a POST operation to create a new resource, the location header in the HTTP response must contain the complete URL to be used for subsequent PUT, GET, and DELETE commands.
+* For a POST operation to create a new resource, the location header in the HTTP response must contain the complete URL to be used for subsequent PUT and DELETE commands.
 * The HTTP POST response to a create request must have a 200 return code and a location header containing the URI of the newly created resource in the HTTP header.
 
 #### PUT
