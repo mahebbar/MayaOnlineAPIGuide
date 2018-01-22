@@ -69,33 +69,19 @@ The HUU Image must be available in a network location - NFS/CIFS/HTTP.
 
 #### Components
 
-
-
 #### Sample Input XML
-
-
 
 #### Implementation
 
-
-
 #### See Also
 
-Modifying Clusters
+[Modifying Clusters](#modifying-clusters)
 
-Deleting Clusters
-
-
+[Deleting Clusters](#deleting-clusters)
 
 ## Modifying Clusters
 
-
-
 ## Deleting Clusters
-
-
-
-
 
 
 
