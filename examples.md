@@ -59,7 +59,7 @@ Create a cluster.
 
 #### Prerequisites
 
- 
+&lt;&lt;TBD&gt;&gt;
 
 #### REST URL
 
@@ -69,9 +69,15 @@ Create a cluster.
 
 #### Components
 
+&lt;&lt;TBD&gt;&gt;
+
 #### Sample Input XML
 
+&lt;&lt;TBD&gt;&gt;
+
 #### Implementation
+
+&lt;&lt;TBD&gt;&gt;
 
 #### See Also
 
@@ -81,7 +87,9 @@ Create a cluster.
 
 ## Modifying Clusters
 
+&lt;&lt;TBD&gt;&gt;
+
 ## Deleting Clusters
 
-
+&lt;&lt;TBD&gt;&gt;
 
