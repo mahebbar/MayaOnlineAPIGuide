@@ -55,11 +55,11 @@ The examples in this category consist of various cluster tasks that you can perf
 
 #### Objective
 
-Create a firmware image in a network location.
+Create a cluster.
 
 #### Prerequisites
 
-The HUU Image must be available in a network location - NFS/CIFS/HTTP.
+ 
 
 #### REST URL
 

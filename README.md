@@ -1,6 +1,6 @@
 # Introduction
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This document helps you understand why you must use REST APIs, it's working and methods and  This file file serves as your book's preface, a great place to describe your book's content and ideas.
 
 ## Why Use the REST API
 
@@ -49,11 +49,7 @@ The following HTTP status codes are returned by MayaOnline:
 
 ## How to Make a REST API Request
 
-
-
 ### **Example API URL:**
-
-
 
 ### 
 
