@@ -4,7 +4,7 @@ Go to the following URL to find the authorization endpoint.
 
 [https://dev.mayacloud.io/v3/token](https://dev.mayacloud.io/v3/token)
 
-### Example 
+### Example
 
 You can use the following example to view redirect URL for authorization without logging in.
 
@@ -77,4 +77,6 @@ You can use the following example to view redirect URL for authorization without
 `"filters": { },`
 
 `"createDefaults": { }`
+
+`}`
 
