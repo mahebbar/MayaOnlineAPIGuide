@@ -20,47 +20,53 @@ The examples in this category consist of various cluster tasks that you can perf
 
 | CREATE | POST: |
 | :--- | :--- |
-|  |  |
 
-## Create
-
-#### Objective
-
-Create a cluster.
-
-#### Prerequisites
-
-&lt;&lt;TBD&gt;&gt;
-
-#### REST URL
 
 ```
 
 ```
 
-#### Components
+| DELETE | DELETE: |
+| :--- | :--- |
 
-&lt;&lt;TBD&gt;&gt;
 
-#### Sample Input XML
+```
 
-&lt;&lt;TBD&gt;&gt;
+```
 
-#### Implementation
+| UPDATE | PUT: |
+| :--- | :--- |
 
-&lt;&lt;TBD&gt;&gt;
 
-#### See Also
+```
 
-[Modifying Clusters](#modifying-clusters)
+```
 
-[Deleting Clusters](#deleting-clusters)
+## Actions
 
-## Modifying Clusters
+| ACTIVATE | POST: |
+| :--- | :--- |
 
-&lt;&lt;TBD&gt;&gt;
 
-## Deleting Clusters
+### Input
 
-&lt;&lt;TBD&gt;&gt;
+
+
+### Output
+
+
+
+| DEACTIVATE | POST: |
+| :--- | :--- |
+
+
+### Input
+
+
+
+### Output
+
+
+
+
 
