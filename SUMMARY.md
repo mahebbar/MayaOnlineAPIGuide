@@ -8,4 +8,8 @@
 * [How to View Endpoints?](how-to-view-endpoints.md)
 * [Authorization Endpoint](authorization-endpoint.md)
 * [Examples](examples.md)
+* [Accounts](accounts.md)
+* API Keys
+* [Clusters](clusters.md)
+* Slack Integration
 

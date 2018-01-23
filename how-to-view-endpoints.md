@@ -1,10 +1,10 @@
-## How to View Endpoints?
+## User Authentication
 
-Go to the following URL to find all the available end points.
+Login to MayaOnline and go to the following URL to view all the available end points.
 
 [https://dev.mayacloud.io/v3](https://dev.mayacloud.io/v3)
 
-### Example of Available End Points
+### Example
 
 `{`
 
