@@ -9,7 +9,7 @@
 * [Authorization Endpoint](authorization-endpoint.md)
 * [Examples](examples.md)
 * [Accounts](accounts.md)
-* API Keys
+* [API Keys](api-keys.md)
 * [Clusters](clusters.md)
 * [Slack Integration](slack-integration.md)
 

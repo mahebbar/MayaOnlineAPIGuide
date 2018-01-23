@@ -6,13 +6,13 @@ The examples in this category consist of various cluster tasks that you can perf
 
 ### Writeable Fields
 
-|  |  |  |  |  |  |
+| Field | Type | Create | Update | Default | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 |  |  |  |  |  |  |
 
 ### Read only Fields
 
-|  |  |  |
+| Field | Type | Notes |
 | :--- | :--- | :--- |
 |  |  |  |
 
@@ -65,8 +65,6 @@ The examples in this category consist of various cluster tasks that you can perf
 
 
 ### Output
-
-
 
 
 
