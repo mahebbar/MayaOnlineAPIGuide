@@ -12,7 +12,11 @@ The API accepts and returns HTTP messages that contain Extensible Markup Languag
 
 In RESTful APIs, the HTTP method specifies the action you want to perform and the URI specifies the resource you want to access.
 
-REST API uses the following HTTP methods to perform create,  update, and delete operations:
+## How to use the API {#how-to-use-the-api}
+
+The API has its own user interface accessible from a web browser. This is an easy way to see resources, perform actions, and see the equivalent cURL or HTTP request and response. To access it, click on **API **to find the URL endpoint.**??**
+
+REST API uses the following HTTP methods to perform create, update, and delete operations:
 
 ### HTTP Methods
 
@@ -38,223 +42,436 @@ Deletes a resource.
 * If you delete a resource that has already been deleted, a 404 Not Found response is returned.
 * The HTTP DELETE operation should not have a request body. If information is passed in a GET request, query parameters must be used instead.
 
+## Authentication
+
+You can access MayaOnline without logging in by going to [https://dev.mayacloud.io/v3/token](https://dev.mayacloud.io/v3/token) and using the following example.
+
+`{`
+
+`"type": "collection",`
+
+`"resourceType": "token",`
+
+`"links": {`
+
+`"self": "…/v3/token"`
+
+`},`
+
+`"createTypes": { },`
+
+`"actions": { },`
+
+`"data": [`
+
+`{`
+
+`"id": null,`
+
+`"type": "token",`
+
+`"links": {`
+
+`"remove": null`
+
+`},`
+
+`"actions": { },`
+
+`"baseType": "token",`
+
+`"accountId": null,`
+
+`"authProvider": "githubconfig",`
+
+`"code": null,`
+
+`"enabled": true,`
+
+`"inviteCode": null,`
+
+`"jwt": "d1tRMgFzWffE9QsfA8neVr6iE7LE8QKEi2SkPJeo",`
+
+`"redirectUrl": "https://github.com/login/oauth/authorize?client_id=841b168f866f1f7127e4",`
+
+`"security": true,`
+
+`"slackOauthUrl": "https://slack.com/oauth/authorize?client_id=259700574529.277662436016&scope=channels:history,im:history,bot,commands,incoming-webhook,chat:write:user,channels:read,channels:write,chat:write:bot,groups:read,groups:history,groups:write,im:read,mpim:history,usergroups:read",`
+
+`"user": null,`
+
+`"userType": "user"`
+
+`}`
+
+`],`
+
+`"sortLinks": { },`
+
+`"pagination": null,`
+
+`"sort": null,`
+
+`"filters": { },`
+
+`"createDefaults": { }`
+
+`}`
+
 ## Generating an API Access Key
 
+You can use the following example to access MayaOnline API in third party applications. The publicValue and secretValue must be added in a header in the following format where encdata contains base64 of public and private key.
 
+`headers:`
 
-You can use the following example to access MayaOnline API in third party applications. The publicValue and secretValue must be added in the header in the following format where encdata contains base64 of public and private key.
+```
+ 'Authorization' : 'Basic ' + encdata,
+```
 
-headers: {
+`},`
 
-     'Authorization' : 'Basic ' + encdata,
+### Example
 
-  },
+`HTTP/1.1 201`
 
-=================
+`date:`
 
-HTTP/1.1 201
+`Tue, 23 Jan 2018 06:19:28 GMT`
 
-date:
+`x-api-user-id:`
 
-Tue, 23 Jan 2018 06:19:28 GMT
+`1a77`
 
-x-api-user-id:
+`server:`
 
-1a77
+`nginx/1.13.6`
 
-server:
+`x-api-client-ip:`
 
-nginx/1.13.6
+`106.51.73.198`
 
-x-api-client-ip:
+`x-api-roles:`
 
-106.51.73.198
+`user`
 
-x-api-roles:
+`strict-transport-security:`
 
-user
+`max-age=15724800; includeSubDomains;`
 
-strict-transport-security:
+`content-type:`
 
-max-age=15724800; includeSubDomains;
+`application/json; charset=utf-8`
 
-content-type:
+`status:`
 
-application/json; charset=utf-8
+`201`
 
-status:
+`x-api-account-id:`
 
-201
+`1a77`
 
-x-api-account-id:
+`x-api-schemas:`
 
-1a77
+[`https://dev.mayacloud.io/v3/schemas`](https://dev.mayacloud.io/v3/schemas)
 
-x-api-schemas:
+`content-length:`
 
-https://dev.mayacloud.io/v3/schemas
+`841`
 
-content-length:
+`expires:`
 
-841
+`Thu, 01 Jan 1970 00:00:00 GMT`
 
-expires:
+`{`
 
-Thu, 01 Jan 1970 00:00:00 GMT
+`"`
 
-  
+`id`
 
+`"`
 
-{
+`: `
 
-* "
-  id
-  "
-  : 
-  ["1ak52"](https://dev.mayacloud.io/v3/apikeys/1ak52)
-  ,
-* "
-  type
-  "
-  : 
-  ["apiKey"](https://dev.mayacloud.io/v3/schemas/apikey)
-  ,
-* "
-  links
-  "
-  : {
-  * "
-    self
-    "
-    : 
-    ["…/v3/apikeys/1ak52"](https://dev.mayacloud.io/v3/apikeys/1ak52)
-    ,
-  * "
-    account
-    "
-    : 
-    ["…/v3/apikeys/1ak52/account"](https://dev.mayacloud.io/v3/apikeys/1ak52/account)
-    ,
-  * "
-    instances
-    "
-    : 
-    ["…/v3/apikeys/1ak52/instances"](https://dev.mayacloud.io/v3/apikeys/1ak52/instances)
-    ,
-  * "
-    remove
-    "
-    : 
-    ["…/v3/apikeys/1ak52"](https://dev.mayacloud.io/v3/apikeys/1ak52)
-    ,
-  * "
-    update
-    "
-    : 
-    ["…/v3/apikeys/1ak52"](https://dev.mayacloud.io/v3/apikeys/1ak52)
-    ,
-  * "
-    certificate
-    "
-    : 
-    ["…/v3/apikeys/1ak52/certificate"](https://dev.mayacloud.io/v3/apikeys/1ak52/certificate)
+[`"1ak52"`](https://dev.mayacloud.io/v3/apikeys/1ak52)
 
-  },
-* "
-  actions
-  "
-  : { },
-* "
-  baseType
-  "
-  : 
-  "credential"
-  ,
-* "
-  name
-  "
-  : 
-  "test"
-  ,
-* "
-  state
-  "
-  : 
-  "creating"
-  ,
-* "
-  accountId
-  "
-  : 
-  ["1a77"](https://dev.mayacloud.io/v3/accounts/1a77)
-  ,
-* "
-  clusterId
-  "
-  : 
-  null
-  ,
-* "
-  created
-  "
-  : 
-  "2018-01-23T06:19:29Z"
-  ,
-* "
-  createdTS
-  "
-  : 
-  1516688369000
-  ,
-* "
-  description
-  "
-  : 
-  "test"
-  ,
-* "
-  kind
-  "
-  : 
-  "apiKey"
-  ,
-* "
-  publicValue
-  "
-  : 
-  "B1EC74D92D93610A2F6F"
-  ,
-* "
-  removed
-  "
-  : 
-  null
-  ,
-* "
-  secretValue
-  "
-  : 
-  "Gp355fxSDFNwZpUnq8UGxszBYydc4x5RrXKT1rLM"
-  ,
-* "
-  transitioning
-  "
-  : 
-  "yes"
-  ,
-* "
-  transitioningMessage
-  "
-  : 
-  "Creating"
-  ,
-* "
-  uuid
-  "
-  : 
-  "b41e3c75-188a-4cd5-86bd-d9c4809dfcd4"
+`,`
 
-}
+`"`
+
+`type`
+
+`"`
+
+`: `
+
+[`"apiKey"`](https://dev.mayacloud.io/v3/schemas/apikey)
+
+`,`
+
+`"  
+links  
+"  
+: {`
+
+`"`
+
+`self`
+
+`"`
+
+`: `
+
+[`"…/v3/apikeys/1ak52"`](https://dev.mayacloud.io/v3/apikeys/1ak52)
+
+`,`
+
+`"`
+
+`account`
+
+`"`
+
+`: `
+
+[`"…/v3/apikeys/1ak52/account"`](https://dev.mayacloud.io/v3/apikeys/1ak52/account)
+
+`,`
+
+`"`
+
+`instances`
+
+`"`
+
+`: `
+
+[`"…/v3/apikeys/1ak52/instances"`](https://dev.mayacloud.io/v3/apikeys/1ak52/instances)
+
+`,`
+
+`"`
+
+`remove`
+
+`"`
+
+`: `
+
+[`"…/v3/apikeys/1ak52"`](https://dev.mayacloud.io/v3/apikeys/1ak52)
+
+`,`
+
+`"`
+
+`update`
+
+`"`
+
+`: `
+
+[`"…/v3/apikeys/1ak52"`](https://dev.mayacloud.io/v3/apikeys/1ak52)
+
+`,`
+
+`"`
+
+`certificate`
+
+`"`
+
+`: `
+
+[`"…/v3/apikeys/1ak52/certificate"`](https://dev.mayacloud.io/v3/apikeys/1ak52/certificate)
+
+`},`
+
+`"`
+
+`actions`
+
+`"`
+
+`: { },`
+
+`"`
+
+`baseType`
+
+`"`
+
+`: `
+
+`"credential"`
+
+`,`
+
+`"`
+
+`name`
+
+`"`
+
+`: `
+
+`"test"`
+
+`,`
+
+`"`
+
+`state`
+
+`"`
+
+`: `
+
+`"creating"`
+
+`,`
+
+`"`
+
+`accountId`
+
+`"`
+
+`: `
+
+[`"1a77"`](https://dev.mayacloud.io/v3/accounts/1a77)
+
+`,`
+
+`"`
+
+`clusterId`
+
+`"`
+
+`: `
+
+`null`
+
+`,`
+
+`"`
+
+`created`
+
+`"`
+
+`: `
+
+`"2018-01-23T06:19:29Z"`
+
+`,`
+
+`"`
+
+`createdTS`
+
+`"`
+
+`: `
+
+`1516688369000`
+
+`,`
+
+`"`
+
+`description`
+
+`"`
+
+`: `
+
+`"test"`
+
+`,`
+
+`"`
+
+`kind`
+
+`"`
+
+`: `
+
+`"apiKey"`
+
+`,`
+
+`"`
+
+`publicValue`
+
+`"`
+
+`: `
+
+`"B1EC74D92D93610A2F6F"`
+
+`,`
+
+`"`
+
+`removed`
+
+`"`
+
+`: `
+
+`null`
+
+`,`
+
+`"`
+
+`secretValue`
+
+`"`
+
+`: `
+
+`"Gp355fxSDFNwZpUnq8UGxszBYydc4x5RrXKT1rLM"`
+
+`,`
+
+`"`
+
+`transitioning`
+
+`"`
+
+`: `
+
+`"yes"`
+
+`,`
+
+`"`
+
+`transitioningMessage`
+
+`"`
+
+`: `
+
+`"Creating"`
+
+`,`
+
+`"`
+
+`uuid`
+
+`"`
+
+`: `
+
+`"b41e3c75-188a-4cd5-86bd-d9c4809dfcd4"`
+
+`}`
 
 ## How to Interpret the HTTP Response
 
