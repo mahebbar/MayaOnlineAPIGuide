@@ -11,5 +11,5 @@
 * [Accounts](accounts.md)
 * API Keys
 * [Clusters](clusters.md)
-* Slack Integration
+* [Slack Integration](slack-integration.md)
 
