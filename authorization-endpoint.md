@@ -1,76 +1,80 @@
 ## Authorization Endpoint
 
+Go to the following URL to find the authorization endpoint.
+
 [https://dev.mayacloud.io/v3/token](https://dev.mayacloud.io/v3/token)
 
-### Example to View Redirect URL for Authentication without Logging In
+### Example 
 
-{
+You can use the following example to view redirect URL for authorization without logging in.
 
-"type": "collection",
+`{`
 
-"resourceType": "token",
+`"type": "collection",`
 
-"links": {
+`"resourceType": "token",`
 
-"self": "…/v3/token"
+`"links": {`
 
-},
+`"self": "…/v3/token"`
 
-"createTypes": { },
+`},`
 
-"actions": { },
+`"createTypes": { },`
 
-"data": \[
+`"actions": { },`
 
-{
+`"data": [`
 
-"id": null,
+`{`
 
-"type": "token",
+`"id": null,`
 
-"links": {
+`"type": "token",`
 
-"remove": null
+`"links": {`
 
-},
+`"remove": null`
 
-"actions": { },
+`},`
 
-"baseType": "token",
+`"actions": { },`
 
-"accountId": null,
+`"baseType": "token",`
 
-"authProvider": "githubconfig",
+`"accountId": null,`
 
-"code": null,
+`"authProvider": "githubconfig",`
 
-"enabled": true,
+`"code": null,`
 
-"inviteCode": null,
+`"enabled": true,`
 
-"jwt": "d1tRMgFzWffE9QsfA8neVr6iE7LE8QKEi2SkPJeo",
+`"inviteCode": null,`
 
-"redirectUrl": "[https://github.com/login/oauth/authorize?client\_id=841b168f866f1f7127e4](https://github.com/login/oauth/authorize?client_id=841b168f866f1f7127e4)",
+`"jwt": "d1tRMgFzWffE9QsfA8neVr6iE7LE8QKEi2SkPJeo",`
 
-"security": true,
+`"redirectUrl": "`[`https://github.com/login/oauth/authorize?client_id=841b168f866f1f7127e4`](https://github.com/login/oauth/authorize?client_id=841b168f866f1f7127e4)`",`
 
-"slackOauthUrl": "[https://slack.com/oauth/authorize?client\_id=259700574529.277662436016&scope=channels:history,im:history,bot,commands,incoming-webhook,chat:write:user,channels:read,channels:write,chat:write:bot,groups:read,groups:history,groups:write,im:read,mpim:history,usergroups:read](https://slack.com/oauth/authorize?client_id=259700574529.277662436016&scope=channels:history,im:history,bot,commands,incoming-webhook,chat:write:user,channels:read,channels:write,chat:write:bot,groups:read,groups:history,groups:write,im:read,mpim:history,usergroups:read)",
+`"security": true,`
 
-"user": null,
+`"slackOauthUrl": "`[`https://slack.com/oauth/authorize?client_id=259700574529.277662436016&scope=channels:history,im:history,bot,commands,incoming-webhook,chat:write:user,channels:read,channels:write,chat:write:bot,groups:read,groups:history,groups:write,im:read,mpim:history,usergroups:read`](https://slack.com/oauth/authorize?client_id=259700574529.277662436016&scope=channels:history,im:history,bot,commands,incoming-webhook,chat:write:user,channels:read,channels:write,chat:write:bot,groups:read,groups:history,groups:write,im:read,mpim:history,usergroups:read)`",`
 
-"userType": "user"
+`"user": null,`
 
-}
+`"userType": "user"`
 
-\],
+`}`
 
-"sortLinks": { },
+`],`
 
-"pagination": null,
+`"sortLinks": { },`
 
-"sort": null,
+`"pagination": null,`
 
-"filters": { },
+`"sort": null,`
 
-"createDefaults": { }
+`"filters": { },`
+
+`"createDefaults": { }`
 

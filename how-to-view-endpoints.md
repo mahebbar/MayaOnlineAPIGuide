@@ -1,6 +1,6 @@
 ## How to View Endpoints?
 
-Goes here to find all the available end points.
+Go to the following URL to find all the available end points.
 
 [https://dev.mayacloud.io/v3](https://dev.mayacloud.io/v3)
 
