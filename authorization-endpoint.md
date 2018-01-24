@@ -1,3 +1,8 @@
+---
+id: api5
+title: Authorization Endpoint
+sidebar_label: Authorization Endpoint
+---
 ## Authorization Endpoint
 
 Go to the following URL to find the authorization endpoint.
