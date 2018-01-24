@@ -1,3 +1,8 @@
+---
+id: api6
+title: Examples
+sidebar_label: Examples
+---
 # Examples
 
 This chapter contains the following sections:
