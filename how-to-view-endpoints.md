@@ -1,3 +1,8 @@
+---
+id: api4
+title: User Authentication
+sidebar_label: Viewing Endpoints
+---
 ## User Authentication
 
 Login to MayaOnline and go to the following URL to view all the available end points.
