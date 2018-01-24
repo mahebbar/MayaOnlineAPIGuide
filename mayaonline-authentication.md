@@ -1,3 +1,9 @@
+---
+id: api2
+title: MayaOnline Authentication
+sidebar_label: MayaOnline Authentication
+---
+
 # MayaOnline Authentication
 
 You can access MayaOnline without logging in by going to [https://dev.mayacloud.io/v3/token](https://dev.mayacloud.io/v3/token) and using the following example.
